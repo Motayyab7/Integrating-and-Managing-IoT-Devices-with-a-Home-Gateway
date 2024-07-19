@@ -1,0 +1,9 @@
+Through this project, I got to know how to configure a home gateway to serve as the central device in my network. I could now, therefore, connect a number of devices, both wired and wireless and Bluetooth, to the network and configure them to communicate with the home gateway.
+
+I learned IP addressing and how devices acquire the IP addresses in a network and make use of them. I have also learned the integration of other IoT devices such as lamps, fans, doors, into my network and how they can be made to connect to the home gateway properly.
+
+During the process, I learned how to administer a wireless network—configuration of devices onto a home Wi-Fi network and dealing with devices that have cellular and Wi-Fi connectivity. I have also been taught how to pair and configure Bluetooth devices and how they interact with each other on a network.
+
+I set up an IoT server, from which the connected devices could be monitored and managed. This learning contained device control and interaction via the IoT monitor application. I learned practical troubleshooting skills to resolve connectivity issues and used tools like Fast Forward Time to expedite network configuration tasks.
+
+Moreover, I did the network security by configuring usernames and passwords to access devices._device configuration interfaces helped me to learn how to navigate and use the different tabs and settings in a user interface. By following up on this project, I will be better prepared for greater challenges in networking and IoT.
