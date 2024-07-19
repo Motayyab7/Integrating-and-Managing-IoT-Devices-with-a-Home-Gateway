@@ -1,0 +1,86 @@
+Objectives
+
+Part 1: Connect a Home Gateway to the Network
+Part 2: Add End User Devices to the Network
+Part 3: Connect IoT Devices to the Network
+Part 4: Add Bluetooth Devices
+Background / Scenario
+In this activity, you will add a home gateway and several IoT devices to an existing home network and monitor those devices through the home gateway.
+Note: This activity is scored. Be sure you change the Display Name when directed to do so or the scoring will not be accurate. Click Check Results at any time to view your progress.
+
+Instructions
+
+Part 1: Connect a Home Gateway to the Network
+
+Step 1: Add a Home Gateway.
+a. In the Devices-Type selection box, click End Devices, and then Wireless Devices.
+b. Click Home Gateway, and then click in the Logical workspace to add the device.
+c. Click Home Gateway, and then the Config tab. Change the Display Name to Home Gateway.
+
+Step 2: Connect the Home Gateway to the cable modem.
+a. In the Devices-Type selection box, click Connections, and then Copper Straight-Through cable.
+b. Click Cable Modem and connect the end of the cable to Port 1.
+c. Click Home Gateway and connect the other end of the cable to the Internet port.
+
+Part 2: Add End User Devices to the Network
+
+Step 1: Add a Wireless tablet to the workspace.
+a. In the Devices-Type selection box, click End Devices, and then Tablet. Add the Tablet to the workspace.
+b. Click Tablet and then the Config tab. Change the Display Name to Tablet.
+
+Step 2: Connect the tablet to the Home Gateway network.
+a. The tablet will automatically connect to the default network. The blue wireless signal is connected to the internet cloud where the cellular provider is located.
+b. Disconnect the tablet from the internet wireless, add the Wireless0 interface to the left panel in the Config tab.
+c. Select the SSID from Default to HomeGateway. The Tablet will connect to the Home Wi-Fi network. It may take a minute for IPv4 addressing to change to an address from the 192.168.25.x network. You can click Fast Forward Time to speed up the process.
+d. Notice that the tablet has connections to both networks: cellular and Wi-Fi. This is common for cellular-enabled tablets and smartphones.
+
+Step 3: Disconnect the internet service from the tablet.
+a. In the Config tab, click Cellular0 and click the On button to disable the internet cellular wireless of the Home Gateway, and assigning to both the username and password. Click Login.
+b. This verifies that you have access to the Home Gateway IoT Server. Note that no devices appear in the Home Gateway IoT Server - Devices list yet.
+
+Part 3: Connect IoT Devices to the Network
+In this part, you will add three new IoT devices to the network and register them to the Home Gateway server.
+
+Step 1: Add IoT device to the wired network.
+In this step, you will connect a new IoT device to the wired network.
+a. In the Devices-Type selection box, click End Devices > Home, and then click the Lamp and add it to the workspace.
+b. Click Lamp, and then Config tab. Change the Display Name to Lamp.
+c. Click Settings and change the IoT Server to HomeGateway.
+d. Click IoT Config in the Settings tab and select Advanced > DPT-4/MOT-1CPF.
+e. In the left panel, click FastForwardTime and then select the DHCP radio button so that the lamp will receive an IPv4 address from the Home Gateway.
+f. Click Connections, select Copper Straight-Through and connect the FastEthernet0 port of the Lamp to one of the available Ethernet ports on Home Gateway.
+
+Step 2: Add IoT devices to HomeGateway wireless network.
+In this step, you will connect two new IoT devices to the wireless network.
+a. In the Devices-Type selection box, click End Devices > Home. Add a Fan and a Door to the workspace.
+b. Click Fan, and then the Config tab. Change the Display Name to Fan.
+c. Change the display name of the door to Door.
+d. Click Settings and change the IoT Server to HomeGateway.
+e. Click IoT Config in the Settings tab and verify that the SSID is already set to HomeGateway and that each device received an IPv4 address from the 192.168.25.x network. You may need to click Fast Forward Time to speed up the process.
+
+Step 3: Configure IoT devices to register with the Home Gateway server.
+a. Click IoT Config and click the Connect button, then enter the IoT username and password for each device and set the IoT Server.
+b. Verify that the device appears in the IoT Server - Devices list.
+c. Click Tablet, go back to the desktop tab > IoT Monitor, and then click Login. You should see entries for all three of the new IoT devices. Expand the entries to see details for the devices. Try controlling the devices and look at the list of variables.
+d. If the three IoT devices are not listed, repeat the three devices to register with the server and be listed in the IoT Monitor.
+
+Part 4: Add Bluetooth Devices
+In this part, you will add a Bluetooth speaker to the wireless network. You will connect a portable music player to the speaker.
+
+Step 1: Add a Bluetooth speaker to the wireless network.
+a. In the Devices-Type selection box, click End Devices > Home, and then add a Bluetooth Speaker to the workspace.
+b. In the Config tab, change the Display Name to Home Gateway. After a few minutes, the speaker will be configured with an IP address from the 192.168.25.x network.
+c. In the Physical tab, select Bluetooth.
+d. Under Bluetooth, click Add and then select the Portable Music Player in the left panel, and then turn Port Status to On.
+
+Step 2: Add a Portable Music Player to the wireless network.
+a. In the Devices-Type selection box, click End Devices > Home. Add a Portable Music Player to the workspace.
+b. The Music Player automatically connected by the Home Gateway. After a few minutes, it will be configured with an IP address from the 192.168.25.x network.
+c. Change the Display Name to Music Player.
+
+Step 3: Turn Bluetooth Port Status to On.
+a. Click Bluetooth > Add to the workspace, click Pair, and then click Yes.
+b. Click Done and then click Music Player. (Hint: Make sure the speakers for your physical computer are on.)
+
+Step 4: Add Lamp and Door to Bluetooth devices.
+a. Explore the devices connected to the Home Gateway server. Select the door and the lamp. Hold down the Alt key and click the devices to interact with them. With the Alt key depressed, you can turn on the Music Player, open the Door, and turn on the Lamp and Fan. Check the devices from the IoT Monitor app on the Smartphone or Tablet.
