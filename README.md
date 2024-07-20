@@ -47,6 +47,8 @@ Summary
 
 This project enabled me with practical skills in the configuration of a network, integration of devices, and management of the different types of networked devices. It improved my understanding of how to set up and then maintain a home network supporting both wired and wireless connections, IoT devices, and Bluetooth peripherals.
 
+-
+
 ![Project Screenshot](https://github.com/user-attachments/assets/0a3ce03a-cd92-4c22-a9e8-4324f0bcd04c)
 
 
